@@ -1,0 +1,150 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--    Vaiables generales de la aplicacion-->
+    <string name="app_name">TFG</string>
+    <string name="coneixens">Coneixen\'s</string>
+    <string name="cerca">Cerca</string>
+    <string name="contactans">Contactan\'s</string>
+    <string name="cercaTractament">Cerca de Tractament</string>
+    <string name="Tractament">Tractament</string>
+    <string name="Idioma">Idioma</string>
+    <string name="Catala">Català</string>
+    <string name="Castella">Castellà</string>
+    <string name="ConeixensText">Som la Lorena Millán i la Laia Rodríguez, dues estudiants de quart d\'infermeria de la Universitat de Vic.            Totes dues hem sigut cuidadores de familiars grans i fràgils, situació que ens ha ajudat a entendre la complexitat dels pacients crònics i de les cures de les ferides. Hem viscut en primera persona la gran varietat de tractaments i dificultats que comporta la cura d\'una ferida, això ens ha fet interessar a dur al projecte de l\'aplicació pel nostre Treball de Fi de Grau.            Desitgem que sigui de gran ajuda als estudiants i als futurs professionals.</string>
+
+
+    <string name="titteixits_afectats">Segons teixits afectats</string>
+    <string name="titbores">Segons bores</string>
+    <string name="titcomplicacions">Segons complicacions</string>
+    <string name="titrisc_infeccio">Segons risc d\'infecció</string>
+    <string name="titexudat">Segons exsudat</string>
+    <string name="titesfacel">Segons esfacel</string>
+    <string-array name="glosari">
+        <item>Glosari</item>
+        <item>Abscés</item>
+        <item>Acné</item>
+        <item>Adenoma</item>
+        <item>Bacteria</item>
+        <item>Betadine</item>
+        <item>Bisturí</item>
+        <item>Caquexia</item>
+        <item>Carcinoma</item>
+        <item>Cateter</item>
+        <item>Celulitis</item>
+        <item>Comadiabètic</item>
+        <item>Desbridament</item>
+        <item>Dermatitis</item>
+        <item>Descamació</item>
+        <item>Diaforesis</item>
+        <item>Eccema</item>
+        <item>Endògen</item>
+        <item>Escala de Braden</item>
+        <item>Escala EVA</item>
+        <item>Ulcera</item>
+    </string-array>
+    <string-array name="teixits_afectats">
+        <item>Epidèrmiques</item>
+        <item>Erosió</item>
+        <item>Superficial</item>
+        <item>Profundes</item>
+        <item>Penetrants</item>
+        <item>Perforants</item>
+    </string-array>
+    <string-array name="bores">
+        <item>Delimitada</item>
+        <item>No Delimitada</item>
+    </string-array>
+    <string-array name="complicacions">
+        <item>Simple</item>
+        <item>Profunda</item>
+    </string-array>
+    <string-array name="risc_infeccio">
+        <item>Infectada</item>
+        <item>No Infectada</item>
+    </string-array>
+    <string-array name="exudat">
+        <item>Exsudat</item>
+        <item>No exsudat</item>
+    </string-array>
+    <string-array name="esfacel">
+        <item>Esfacel</item>
+        <item>No esfacel</item>
+    </string-array>
+
+
+    <string name="titoltractament1">Superficial/Delimitada/Simple/No Infectada/No exsudat</string>
+    <string name="neteja1"><b>Neteja:</b> Utilització d\'aigua i sabó per netejar la zona. Moviments circulars, des de la zona interior cap a l\'exterior.</string>
+    <string name="desbridament1"><b>Desbridament:</b> No hi ha necessitat de desbridament. </string>
+    <string name="control1"><b>Control infecció:</b> Tenir en compte signes d\'infecció com: calor, rubor, dolor(EVA), edema…</string>
+    <string name="cura1"><b>Cura:</b> Es pot utilitzar povidona iodada per curar la ferida. Utilitzarem unes gases per aplicar-la.</string>
+    <string name="manteniment1"><b>Manteniment pell perilesional:</b>  Realitzar una bona hidratació de la pell perilesional i mantenir la zona seca. </string>
+    <string name="aposits1"><b>Apòsits:</b> No són necessaris la utilització d’apòsits, tot i que es podria col·locar un de protecció.</string>
+    <string name="chuletilla1">S\'ha de tenir en compte el estil de vida, al·lèrgies i les necessitats del pacient, adaptant així les cures i individualitzant-les.</string>
+
+
+    <string name="titoltractament2">Superficial/No Delimitada/Simple/Infectada/No exsudat</string>
+    <string name="neteja2"><b>Neteja:</b> Utilització d\'aigua i sabó per netejar la zona. Moviments circulars, des de la zona interior cap a l\'exterior.</string>
+    <string name="desbridament2"><b>Desbridament:</b> No hi ha necessitat de desbridament. </string>
+    <string name="control2"><b>Control infecció:</b> Tenir en compte signes d\'infecció com: calor, rubor, dolor(EVA), edema…</string>
+    <string name="cura2"><b>Cura:</b> Es pot utilitzar povidona iodada per curar la ferida. Utilitzarem unes gases per aplicar-la.</string>
+    <string name="manteniment2"><b>Manteniment pell perilesional:</b>  Realitzar una bona hidratació de la pell perilesional i mantenir la zona seca. </string>
+    <string name="aposits2"><b>Apòsits:</b> No són necessaris la utilització d’apòsits, tot i que es podria col·locar un de protecció.</string>
+    <string name="chuletilla2">S\'ha de tenir en compte el estil de vida i les necessitats del pacient, adaptant així les cures i individualitzant-les. Vigilar que la infecció no avançi, sinó és així comentar-ho amb el metge de referencia per si és necessari fer un canvi de tractament.</string>
+
+
+    <string name="titoltractament3">Superficial/Delimitada/Simple/Infectada/No exsudat</string>
+    <string name="neteja3"><b>Neteja:</b> Utilització d\'aigua i sabó per netejar la zona. Moviments circulars, des de la zona interior cap a l\'exterior.</string>
+    <string name="desbridament3"><b>Desbridament:</b> No hi ha necessitat de desbridament. </string>
+    <string name="control3"><b>Control infecció:</b> Tenir en compte signes d\'infecció com: calor, rubor, dolor, edema…</string>
+    <string name="cura3"><b>Cura:</b> Es pot utilitzar povidona iodada per curar la ferida. Utilitzarem unes gases per aplicar-la.</string>
+    <string name="manteniment3"><b>Manteniment pell perilesional:</b>  Realitzar una bona hidratació de la pell perilesional i mantenir la zona seca. </string>
+    <string name="aposits3"><b>Apòsits:</b> No són necessaris la utilització d’apòsits, tot i que es podria col·locar un de protecció.</string>
+    <string name="chuletilla3">S\'ha de tenir en compte el estil de vida i les necessitats del pacient, adaptant així les cures i individualitzant-les. Vigilar que la infecció no avançi, sinó és així comentar-ho amb el metge de referencia per si és necessari fer un canvi de tractament.</string>
+
+
+    <string name="titoltractament4">Superficial/No Delimitada/Simple/No Infectada/No exsudat</string>
+    <string name="neteja4"><b>Neteja:</b> Utilització d\'aigua i sabó per netejar la zona. Moviments circulars, des de la zona interior cap a l\'exterior.</string>
+    <string name="desbridament4"><b>Desbridament:</b> No hi ha necessitat de desbridament. </string>
+    <string name="control4"><b>Control infecció:</b> Tenir en compte signes d\'infecció com: calor, rubor, dolor(EVA), edema…</string>
+    <string name="cura4"><b>Cura:</b> Es pot utilitzar povidona iodada per curar la ferida. Utilitzarem unes gases per aplicar-la.</string>
+    <string name="manteniment4"><b>Manteniment pell perilesional:</b>  Realitzar una bona hidratació de la pell perilesional i mantenir la zona seca. </string>
+    <string name="aposits4"><b>Apòsits:</b> No són necessaris la utilització d’apòsits, tot i que es podria col·locar un de protecció.</string>
+    <string name="chuletilla4">S\'ha de tenir en compte el estil de vida, al·lèrgies i les necessitats del pacient, adaptant així les cures i individualitzant-les.</string>
+
+
+    <string name="titoltractament5">Profundes/Delimitada/Simple/Infectada/No exsudat</string>
+    <string name="neteja5"><b>Neteja:</b> Utilització d’aigua i sabó per netejar la zona. Moviments circulars, des de la zona interior cap a l’exterior. També es pot utilitzar clorhexidina com a segona neteja, per acabar de desinfectar la ferida. </string>
+    <string name="desbridament5"><b>Desbridament:</b> S’ha de tenir en compte quin tipus de teixit és, la profunditat, la localització i la presencia de dolor. Es podría utilizar un desbridament tallant en cas de presencia d’esfacels però sempre utilitzant anestesia per disminuir el dolor. També es podria utilitzar un desbridament enzimatic,com la pomada Iruxol.</string>
+    <string name="control5"><b>Control infecció:</b> Tenir en compte signes d’infecció com: calor, rubor, dolor (EVA), edema… Si apareixen aquests signes i no cessen consultar amb el metge de capçalera.</string>
+    <string name="cura5"><b>Cura:</b> Tenint en compte que es una lesió infectada, seria convenient utilitzar un apòsit de plata o de carbó per combatre la infecció.</string>
+    <string name="manteniment5"><b>Manteniment pell perilesional:</b> Convenient protegir la pell amb pasta lassar </string>
+    <string name="aposits5"><b>Apòsits:</b> Apòsit de plata/ Apòsit de carbó/ Apòsit protector.</string>
+    <string name="chuletilla5">S\'ha de tenir en compte el estil de vida, al·lèrgies i les necessitats del pacient, adaptant així les cures i individualitzant-les.</string>
+
+
+
+    <string name="glosari1">Abscés:Col·lecció de pus, produïda en general per una infecció bacteriana. Pot formar-se en diferents regions de l\'organisme (cervell, ossos, pell, músculs). Pot ocasionar febre, calfreds, tremolors i enrogiment i dolor de la zona afectada.</string>
+    <string name="glosari2">Acné:Trastorn dermatològic caracteritzat per la formació de pústula, barbs i tubercles, a la cara, regió anterior de tòrax i esquena. Sol estar influenciat per diferents canvis hormonals que tenen lloc durant la pubertat, l\'embaràs.</string>
+    <string name="glosari3">Adenoma: Tumor de l\'epiteli glandular de característiques benignes</string>
+    <string name="glosari4">Bacteria:Organisme unicel·lular, capaç de reproduir-se a si mateix. Hi ha diferents tipus de bacteris classificades segons les seves propietats de creixement</string>
+    <string name="glosari5">Betadine: Nom comercial d\'un antisèptic compost per povidona iodada</string>
+    <string name="glosari6">Bisturí: Instrument utilitzat per tallar teixits.</string>
+    <string name="glosari7">Caquexia: Estat general caracteritzat per pèrdua de pes, astènia i incapacitat per desenvolupar activitats mínimes</string>
+    <string name="glosari8">Carcinoma:Tumor maligne o càncer, derivat de el teixit epitelial.</string>
+    <string name="glosari9">Cateter:  Tub flexible que s\'introdueix en un got o cavitat de el cos amb l\'objecte d\'introduir o extreure substàncies</string>
+    <string name="glosari10">Celulitis:Inflamació aguda de les estructures cutànies, incloent el teixit adipós subjacent, generalment produïda per un agent infecciós i manifestada per dolor, rubor i febre.</string>
+    <string name="glosari11">Coma diabètic: Es produeix quan hi ha un augment de Glucosa en sang, és un estat d\'inconsciència completa, es deu a una acidosi i es tracta amb insulina.</string>
+    <string name="glosari12">Desbridament: És l\'eliminació de el teixit mort, danyat o infectat per millorar la salubritat el teixit restant</string>
+    <string name="glosari13">Dermatitis: Inflamació de les capes superficials de la pell, que pot presentar-se de formes variades (dermatitis seborreica, dermatitis per contacte ..), i és produïda per l\'agressió directa de microorganismes, substàncies tòxiques o per una resposta immunològica inadequada</string>
+    <string name="glosari14">Descamació: Eliminació fragmentada de la superfície de la pell.</string>
+    <string name="glosari15">Diaforesis: Excessiva sudoració</string>
+    <string name="glosari16">Eccema: Inflamació de la pell amb picor: pot causar butllofes i descamacions</string>
+    <string name="glosari17">Endògen: Que s\'origina o neix a l\'interior.</string>
+    <string name="glosari18">Escala de Braden: Escala que mesura la probabilitat que un pacient desenvolupa una úlcera per pressió (UPP)</string>
+    <string name="glosari19">Escala EVA: Escala que permet mesurar la intensitat de dolor que descriu el pacient amb la màxima reproductibilitat entre els observadors</string>
+    <string name="glosari20">Ulcera: Pèrdua de continuïtat a la pell o d\'una membrana mucosa, acompanyada per la desintegració de teixit</string>
+
+
+
+<!--    Variable para identificar el string.xml-->
+    <string name="identificador">CAT</string>
+</resources>

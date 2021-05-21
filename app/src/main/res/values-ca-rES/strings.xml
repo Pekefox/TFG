@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ConeixensText">Som la Lorena Millán i la Laia Rodríguez, dues estudiants de quart d\'infermeria de la Universitat de Vic.            Totes dues hem sigut cuidadores de familiars grans i fràgils, situació que ens ha ajudat a entendre la complexitat dels pacients crònics i de les cures de les ferides. Hem viscut en primera persona la gran varietat de tractaments i dificultats que comporta la cura d\'una ferida, això ens ha fet interessar a dur al projecte de l\'aplicació pel nostre Treball de Fi de Grau.            Desitgem que sigui de gran ajuda als estudiants i als futurs professionals.</string>
+    <string name="titteixits_afectats">Segons teixits afectats</string>
+    <string name="titcomplicacions">Segons complicacions</string>
+    <string name="titrisc_infeccio">Segons risc d\'infecció</string>
+    <string name="titesfacel">Segons esfacel</string>
+    <string name="titbores">Segons bores</string>
+    <string name="titexudat">Segons exsudat</string>
+</resources>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cerca_tractament"
+    android:background="@color/colorback">
+
+
+    <Spinner
+        android:id="@+id/spinner_exudat"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_risc_infeccio"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <Spinner
+        android:id="@+id/spinner_esfacel"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_exudat"
+        app:layout_constraintVertical_bias="0.192" />
+
+    <Spinner
+        android:id="@+id/spinner_risc_infeccio"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_complicacions"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <ImageView
+        android:id="@+id/logo_main"
+        android:layout_width="85dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/logo" />
+
+    <Spinner
+        android:id="@+id/spinner_texit_afectat"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+    <Spinner
+        android:id="@+id/spinner_bores"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_texit_afectat"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Spinner
+        android:id="@+id/spinner_complicacions"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_bores"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/Cerca_tractament_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cerca"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_esfacel"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <TextView
+        android:id="@+id/Titulo_cerca_tractament_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cercaTractament"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_texit_afectat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toEndOf="@+id/logo_main"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772" />
+
+    <ImageView
+        android:id="@+id/Lupa_titulo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Titulo_cerca_tractament_text"
+        app:layout_constraintEnd_toStartOf="@+id/Titulo_cerca_tractament_text"
+        app:layout_constraintHorizontal_bias="0.90"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Titulo_cerca_tractament_text"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/titulo_teixit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="222dp"
+        android:layout_marginRight="222dp"
+        android:text="@string/titteixits_afectats"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_texit_afectat"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_texit_afectat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinner_texit_afectat"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo_cerca_tractament_text"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <TextView
+        android:id="@+id/titulo_bores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titbores"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_bores"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_bores"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinner_bores"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_texit_afectat"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <TextView
+        android:id="@+id/titulo_complicacions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titcomplicacions"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_complicacions"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_complicacions"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinner_complicacions"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_bores"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <TextView
+        android:id="@+id/titulo_risc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titrisc_infeccio"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_risc_infeccio"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_risc_infeccio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinner_risc_infeccio"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_complicacions"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <TextView
+        android:id="@+id/titulo_exudat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/titexudat"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_exudat"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_exudat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinner_exudat"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_risc_infeccio"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/titulo_esfacel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/titesfacel"
+        app:layout_constraintBottom_toBottomOf="@+id/spinner_esfacel"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_esfacel"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinner_esfacel"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_exudat"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
